@@ -16,7 +16,8 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :test
-  host ='localhost:3000'
+  host = 'lab2-faisalmaqsood12345.c9users.io'
+  #host = 'localhost:3088'
   config.action_mailer.default_url_options = { host: host, protocol: 'https' }
 
   # Print deprecation notices to the Rails logger.
