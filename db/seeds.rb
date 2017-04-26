@@ -1,12 +1,12 @@
-User.create!(name:  "userRoot",
-             email: "userRoot@email.com",
-             password:              "userRoot",
-             password_confirmation: "userRoot",
+User.create!(name:  "faisal",
+             email: "faisal@email.com",
+             password:              "12345",
+             password_confirmation: "12345",
              admin:     true,
              activated: true,
              activated_at: Time.zone.now)
 
-50.times do |n|
+10.times do |n|
   name  = Faker::Name.name
   email = "example-#{n+1}@testemail.ie"
   password = "password"
